@@ -1,13 +1,17 @@
 body{
     /*background-image:linear-gradient(160deg,#5FB0B7 0%,#6C91BF 50%,#5BC8AF 75%);*/
     background-color: #88d3c2;
-    opacity: 0.95;
+    opacity: 1;
+    font-family: sans-serif;
+    font-size: 16px;
 }
 
 main{
     background-color: #549888;
     max-width: 500px;
+    width: 50vw;
     min-width: 300px;
+    opacity: 0.95;
 
     padding:20px 40px 40px 40px;
     margin: 20px auto;
@@ -36,4 +40,21 @@ width: unset;
 margin-right: 10px;
 vertical-align: middle;
 
+}
+
+fieldset{
+    border: none;
+    border-bottom-style:solid;
+    border-bottom-color:#88d3c2;
+    border-bottom-width:1px ;
+    margin-bottom: 15px;
+}
+
+input,textarea,select{
+    border-radius: 4px;
+    border-color:#549888 ;
+}
+
+#submit:hover{
+    background-color: #88d3c2;
 }
