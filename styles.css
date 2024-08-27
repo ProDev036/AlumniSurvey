@@ -1,0 +1,39 @@
+body{
+    /*background-image:linear-gradient(160deg,#5FB0B7 0%,#6C91BF 50%,#5BC8AF 75%);*/
+    background-color: #88d3c2;
+    opacity: 0.95;
+}
+
+main{
+    background-color: #549888;
+    max-width: 500px;
+    min-width: 300px;
+
+    padding:20px 40px 40px 40px;
+    margin: 20px auto;
+}
+
+header h1,p{
+text-align: center;
+}
+
+label,input,textarea,select{
+    display: block;
+    width:100%;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+input{
+    height:17px;
+}
+select,input[type=submit]{
+    height: 25px;
+}
+
+.inline{
+display: inline;
+width: unset;
+margin-right: 10px;
+vertical-align: middle;
+
+}
