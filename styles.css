@@ -12,7 +12,6 @@ main{
     width: 50vw;
     min-width: 300px;
     opacity: 0.95;
-
     padding:20px 40px 40px 40px;
     margin: 20px auto;
 }
@@ -28,7 +27,7 @@ label,input,textarea,select{
     margin-bottom: 7px;
 }
 input{
-    height:17px;
+    height:20px;
 }
 select,input[type=submit]{
     height: 25px;
