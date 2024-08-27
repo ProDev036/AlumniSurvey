@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alumni Survey Forum</title>
-    <link rel="stylesheets" src="styles.css">
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
     <main>
@@ -57,19 +57,19 @@
             <fieldset class="current-status">
                 <legend>Please select you  current status:</legend>
 
-                <label for="employed"><input type="radio" name="employment-status" id="employed" value="employed"/> Employed
+                <label for="employed"><input type="radio" name="employment-status" id="employed" value="employed" class="inline"/> Employed
                 </label>
 
-                <label for="self-employed"><input type="radio" name="employment-status" id="self-employed" value="self-employed"/>Self-employed
+                <label for="self-employed"><input class="inline" type="radio" name="employment-status" id="self-employed" value="self-employed"/> Self-employed
                 </label>
 
-                <label for="pursuing-further-studies"><input type="radio" name="employment-status" id="pursuing-further-studies" value="pursuing-further-studies"/> Pursuing further studies
+                <label for="pursuing-further-studies"><input class="inline" type="radio" name="employment-status" id="pursuing-further-studies" value="pursuing-further-studies"/> Pursuing further studies
                 </label>
 
-                <label for="unemployed"><input type="radio" name="employment-status" id="unemployed" value="unemployed"/> Unemployed
+                <label for="unemployed"><input class="inline" type="radio" name="employment-status" id="unemployed" value="unemployed"/> Unemployed
                 </label>
 
-                <label for="other"><input type="radio" name="employment-status" id="other" value="other"/> Other (please specify)
+                <label for="other"><input class="inline" type="radio" name="employment-status" id="other" value="other"/> Other (please specify)
                 </label>
 
                 <label for="job-title">Job  Title/Role:
@@ -99,9 +99,9 @@
                 <Legend>
                     How would you like to stay connected with the  university?
                 </Legend>
-                <label for="alumni-newsletters"><input type="checkbox" name="alumni-newsletters" id="alumni-newsletters"/> Alumni newsletters</label>
-                <label for="social-media-groups"><input type="checkbox" name="social-media-groups" id="social-media-groups"/> Social media groups</label>
-                <label for="university-groups"><input type="checkbox" name="university-groups" id="university-groups"/> University Events</label>
+                <label for="alumni-newsletters"><input class="inline" type="checkbox" name="alumni-newsletters" id="alumni-newsletters"/> Alumni newsletters</label>
+                <label for="social-media-groups"><input class="inline" type="checkbox" name="social-media-groups" id="social-media-groups"/> Social media groups</label>
+                <label for="university-groups"><input class="inline" type="checkbox" name="university-groups" id="university-groups"/> University Events</label>
 
                 <label for="undergraduate-experience">How has your undergraduate experience influenced your career path?
 
@@ -117,11 +117,10 @@
 
             </fieldset>
 
-            <label for="consent"><input type="checkbox" name="consent" id="consent" required/>  I consent to having my information shared with the university.</label>
+            <label for="consent"><input class="inline" type="checkbox" name="consent" id="consent" required/>  <em>I consent to having my information shared with the university.</em></label>
 
             <input type="submit" id="submit"/>
         </form>
-        <footer></footer>
     </main>
 </body>
 </html>
